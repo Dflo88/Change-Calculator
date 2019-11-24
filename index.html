@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
     <meta charset="utf-8">
     <title>Change Calculator</title>
   </head>
   <body>
-    <!-- Write your markup here -->
+    <h1>Change Calculator</h1><br>
+    <input type="number" id="amount-due" class="inputBox" name="TotalSaleAmount" placeholder="Total Sale Amount"/>
+    <input type="number" id="amount-received" class="inputBox" name="MoneyRecieved" placeholder="Money Recieved"/>
+    <button id="calculate-change" onclick = "calcDifference ()">Calculate Change!</button><br>
+    
+    <h2 class="changeTitles dollarClass">Dollars Due</h2>
+    <p id="dollars-output" class="outputBoxes dollarClass"> </p>
+    
+    <h2 class="changeTitles quarterClass">Quarters Due</h2>
+    <p id="quarters-output" class="outputBoxes quarterClass"> </p>
+    
+    <h2 class="changeTitles dimeClass">Dimes Due</h2>
+    <p id="dimes-output" class="outputBoxes dimeClass"> </p>
+    
+    <h2 class="changeTitles nickelClass">Nickels Due</h2>
+    <p id="nickels-output" class="outputBoxes nickelClass"> </p>
+    
+    <h2 class="changeTitles pennyClass">Pennies Due</h2>
+    <p id="pennies-output" class="outputBoxes pennyClass"> </p>
 
-    <!-- Don't forget to add your <script> tag here -->
+    <div id="messageOutput" class="outputBoxes"> </div>
+
+  <script src="main.js" charset="utf-8"></script>
 
   </body>
 </html>
