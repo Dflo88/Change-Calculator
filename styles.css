@@ -1,5 +1,31 @@
-.outputBoxes {
-    background : lightgreen;
-    
+body{
+    background-image: url("https://media.giphy.com/media/1pAbbPYxZMeFzvWrGB/giphy.gif");
+    background-size: auto;
+}
 
+.outputBoxes {
+    background: lightgreen;
+    border: 9px outset rgba(20,164,23,0.52);  
+    width: 50%;  
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    background: green;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h2 {
+    margin: auto;
+    width: 50%;
+    border: 9px outset rgba(20,164,23,0.52);
+    background-color: whitesmoke;
+}
+
+.inputArea{
+    float: center;
+    width: 50%;
+    margin: auto;
 }
